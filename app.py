@@ -49,7 +49,7 @@ st.markdown(
 
 with st.sidebar:
     states_of_interest = pd.read_csv("data/states.csv", index_col=0)
-    state = st.selectbox("US State", list(states_of_interest["state"].values), index=4)
+    state = st.selectbox("**US State**", list(states_of_interest["state"].values), index=4)
 #    st.write("You selected:", state)
 
 
