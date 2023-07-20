@@ -85,7 +85,7 @@ model.fit(X, y)
 Price = np.linspace(0.0, df_state["price"].max() + 10.0, 1000)
 
 with st.sidebar:
-    cost = st.slider("Fixed cost", 0.0, 1.0, 0.3)
+    cost = st.slider("**Fixed cost**", 0.0, 1.0, 0.3)
 #    st.write("FC ", cost)
 
 
@@ -102,7 +102,7 @@ df_price_optimize["revenue"] = (
 
 with st.sidebar:
     price = st.slider(
-        "Current price", 0.0, df_state["price"].max() + 10.0, float(df_state["price"].min())
+        "**Current price**", 0.0, df_state["price"].max() + 10.0, float(df_state["price"].min())
     )
 #    st.write("Price ", price)
 
