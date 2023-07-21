@@ -102,7 +102,7 @@ df_price_optimize["revenue"] = (
 
 with st.sidebar:
     price = st.slider(
-        "**Current price**", 0.0, df_state["price"].max() + 10.0, float(df_state["price"].min())
+        "**Current price**", 0.0, df_state["price"].max() + 10.0, float(df_state["price"].mean())
     )
 #    st.write("Price ", price)
 
