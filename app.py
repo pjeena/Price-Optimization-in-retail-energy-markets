@@ -42,7 +42,7 @@ st.markdown(
 )
 
 st.markdown(
-    "<h1 style='text-align: center; color: black;'>Price Optimization in retail energy markets</h1>",
+    "<h1 style='text-align: center; color: black;'>Price Optimization in retail electricity markets</h1>",
     unsafe_allow_html=True,
 )
 
